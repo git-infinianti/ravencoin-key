@@ -13,9 +13,9 @@ A simple and "spot on" way to generate/derive addresses.
 If you need brutal performance check out getAddressByPath example below.
 
 ```
-import RavencoinKey from "@ravenrebels/ravencoin-key";
+import RavencoinKey from "@npm_infinianti/ravencoin-key";
 //Or import as CommonsJS module
-//const RavencoinKey = require("@ravenrebels/ravencoin-key");
+//const RavencoinKey = require("@npm_infinianti/ravencoin-key");
 
 const mnemonic = RavencoinKey.generateMnemonic();
 const ACCOUNT = 0; //default is zero
@@ -61,7 +61,7 @@ Note this is the fastest way to generate/derive addresses since we can re-use th
 BUT its more technical since you have to provide the full BIP44 path.
 
 ```
-import RavencoinKey from "@ravenrebels/ravencoin-key";
+import RavencoinKey from "@npm_infinianti/ravencoin-key";
 
 //use RavencoinKey.generateMnemonic() to generate mnemonic codes
 const mnemonic =
@@ -93,14 +93,14 @@ Outputs
 
 ```
 //As ES6 module
-import RavencoinKey from "@ravenrebels/ravencoin-key";
+import RavencoinKey from "@npm_infinianti/ravencoin-key";
 ```
 
 ### CommonsJS module
 
 ```
 //As CommonsJS module
-const RavencoinKey = require("@ravenrebels/ravencoin-key");
+const RavencoinKey = require("@npm_infinianti/ravencoin-key");
 ```
 
 ### Browserify
@@ -109,7 +109,7 @@ const RavencoinKey = require("@ravenrebels/ravencoin-key");
 //A browseriy:d version, with all the dependencies bundled for the web
 <html>
   <body>
-    <script src="./node_modules/@ravenrebels/ravencoin-key/dist/RavencoinKey.js"></script>
+    <script src="./node_modules/@npm_infinianti/ravencoin-key/dist/RavencoinKey.js"></script>
     <script>
       alert(RavencoinKey.generateMnemonic());
     </script>
@@ -119,7 +119,7 @@ const RavencoinKey = require("@ravenrebels/ravencoin-key");
 
 ## install
 
-` npm install @ravenrebels/ravencoin-key`
+` npm install @npm_infinianti/ravencoin-key`
 
 ## build
 
