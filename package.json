@@ -1,6 +1,6 @@
 {
-  "name": "@ravenrebels/ravencoin-key",
-  "version": "2.5.0",
+  "name": "@npm_infinianti/ravencoin-key",
+  "version": "2.5.1",
   "description": "Generate Ravencoin addresses from mnemonic code. BIP32, BIP39, BIP44",
   "source": "index.ts",
   "main": "dist/main.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ravenrebels/ravencoin-key.git"
+    "url": "git+https://github.com/git-infinianti/ravencoin-key.git"
   },
   "keywords": [
     "Ravencoin",
@@ -23,9 +23,9 @@
   "author": "Raven Rebels / Dick Henrik Larsson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ravenrebels/ravencoin-key/issues"
+    "url": "https://github.com/git-infinianti/ravencoin-key/issues"
   },
-  "homepage": "https://github.com/ravenrebels/ravencoin-key#readme",
+  "homepage": "https://github.com/git-infinianti/ravencoin-key#readme",
   "dependencies": {
     "@npm_infinianti/chains": "^0.2.0",
     "bip39": "^3.0.4",
