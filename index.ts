@@ -1,5 +1,5 @@
 //Gives us meta data about coins/chains
-import { chains } from "@hyperbitjs/chains";
+import { chains } from "@npm_infinianti/chains";
 
 //bip39 from mnemonic to seed
 import * as bip39 from "bip39";
