@@ -10,7 +10,7 @@ const CoinKey = require("coinkey");
 const HDKey = require("hdkey");
 
 //Could not declare Network as enum, something wrong with parcel bundler
-export type Network = "rvn" | "rvn-test" | "evr" | "evr-test";
+export type Network = "rvn" | "rvn-test" | "evr" | "evr-test" | "foxd" | "foxd-test";
 
 function getNetwork(name: Network) {
   const c = name.toLowerCase(); //Just to be sure
@@ -19,6 +19,8 @@ function getNetwork(name: Network) {
     "rvn-test": chains.rvn.test.versions,
     evr: chains.evr.main.versions,
     "evr-test": chains.evr.test.versions,
+    foxd: chains.foxd.main.versions,
+    "foxd-test": chains.foxd.test.versions,
   };
 
   const network = map[c];
@@ -29,7 +31,7 @@ function getNetwork(name: Network) {
 }
 
 /**
- * @param network - should have value "rvn", "rvn-test", "evr" or "evr-test"
+ * @param network - should have value "rvn", "rvn-test", "evr", "evr-test", "foxd" or "foxd-test"
  * @param mnemonic - your mnemonic
  * @param account - accounts in BIP44 starts from 0, 0 is the default account
  * @param position - starts from 0
